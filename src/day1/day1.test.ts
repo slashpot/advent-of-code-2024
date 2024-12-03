@@ -13,4 +13,14 @@ describe('day1', () => {
         console.log(input);
         expect(day1(input)).toBe(11);
     });
+    test('hard case', () => {
+        const inputPath = resolve(__dirname, 'hard.txt');
+        const input = readFileSync(inputPath, 'utf-8')
+            .trim()
+            .split('\n')
+            .map(line => line.trim());
+        console.log(input);
+        expect(day1(input)).toBe(3246517);
+    });
+
 });
