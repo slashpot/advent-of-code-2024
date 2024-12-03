@@ -10,7 +10,6 @@ describe('day1', () => {
             .trim()
             .split('\n')
             .map(line => line.trim());
-        console.log(input);
         expect(day1(input)).toBe(11);
     });
     test('hard case', () => {
@@ -19,8 +18,6 @@ describe('day1', () => {
             .trim()
             .split('\n')
             .map(line => line.trim());
-        console.log(input);
         expect(day1(input)).toBe(3246517);
     });
-
 });
