@@ -11,6 +11,6 @@ describe('day1', () => {
             .split('\n')
             .map(line => line.trim());
         console.log(input);
-        expect(day1(input)).toBe(3);
+        expect(day1(input)).toBe(11);
     });
 });
